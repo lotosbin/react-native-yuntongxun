@@ -8,3 +8,9 @@ react native yuntongxun
 - [ ] android
     - [ ] demo
     - [ ] use gradle to install dependency libs
+
+# USAGE
+```
+npm i -S ssh://git@github.com/lotosbin/react-native-yuntongxun.git
+react-native link react-native-yuntongxun 
+```
