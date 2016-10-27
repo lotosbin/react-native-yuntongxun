@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4D31CDD91DC24F6C0017431D /* DeviceDelegateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D31CDD81DC24F6C0017431D /* DeviceDelegateHelper.m */; };
-		4D31CDDA1DC251D10017431D /* libPods-reactnativeyuntongdemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D31CDAD1DC24BA70017431D /* libPods-reactnativeyuntongdemo.a */; };
 		4D33E8031DC1AB5C000E6381 /* RCTYuntongxunIMLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D33E8021DC1AB5C000E6381 /* RCTYuntongxunIMLib.m */; };
 		4D33E8041DC1AB5C000E6381 /* RCTYuntongxunIMLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4D33E8011DC1AB5C000E6381 /* RCTYuntongxunIMLib.h */; };
 		4D9D7C9B1DC1DC7D00551ACB /* RCTYuntongxunManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9D7C9A1DC1DC7D00551ACB /* RCTYuntongxunManager.m */; };
@@ -59,7 +58,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D31CDDA1DC251D10017431D /* libPods-reactnativeyuntongdemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
