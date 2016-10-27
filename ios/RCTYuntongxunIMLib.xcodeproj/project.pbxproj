@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D31CDD91DC24F6C0017431D /* DeviceDelegateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D31CDD81DC24F6C0017431D /* DeviceDelegateHelper.m */; };
+		4D31CDDA1DC251D10017431D /* libPods-reactnativeyuntongdemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D31CDAD1DC24BA70017431D /* libPods-reactnativeyuntongdemo.a */; };
 		4D33E8031DC1AB5C000E6381 /* RCTYuntongxunIMLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D33E8021DC1AB5C000E6381 /* RCTYuntongxunIMLib.m */; };
 		4D33E8041DC1AB5C000E6381 /* RCTYuntongxunIMLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4D33E8011DC1AB5C000E6381 /* RCTYuntongxunIMLib.h */; };
+		4D9D7C9B1DC1DC7D00551ACB /* RCTYuntongxunManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9D7C9A1DC1DC7D00551ACB /* RCTYuntongxunManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,11 +28,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4D2964441DC18B4D00D9142A /* RCTYuntongxunIMLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCTYuntongxunIMLib.h; path = RCTYuntongxunIMLib/RCTYuntongxunIMLib.h; sourceTree = SOURCE_ROOT; };
-		4D2964451DC18B4D00D9142A /* RCTYuntongxunIMLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCTYuntongxunIMLib.m; path = RCTYuntongxunIMLib/RCTYuntongxunIMLib.m; sourceTree = SOURCE_ROOT; };
+		4D31CDAD1DC24BA70017431D /* libPods-reactnativeyuntongdemo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-reactnativeyuntongdemo.a"; path = "../../../../../../Library/Developer/Xcode/DerivedData/reactnativeyuntongdemo-ayzpwkansxmsfqfmigdpqyxsddwm/Build/Products/Debug-iphonesimulator/libPods-reactnativeyuntongdemo.a"; sourceTree = "<group>"; };
+		4D31CDD71DC24F260017431D /* DeviceDelegateHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceDelegateHelper.h; sourceTree = "<group>"; };
+		4D31CDD81DC24F6C0017431D /* DeviceDelegateHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceDelegateHelper.m; sourceTree = "<group>"; };
 		4D33E7FF1DC1AB5C000E6381 /* libRCTYuntongxunIMLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTYuntongxunIMLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D33E8011DC1AB5C000E6381 /* RCTYuntongxunIMLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTYuntongxunIMLib.h; sourceTree = "<group>"; };
 		4D33E8021DC1AB5C000E6381 /* RCTYuntongxunIMLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTYuntongxunIMLib.m; sourceTree = "<group>"; };
+		4D9D7C9A1DC1DC7D00551ACB /* RCTYuntongxunManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTYuntongxunManager.m; sourceTree = "<group>"; };
+		4D9D7C9C1DC1DC9A00551ACB /* RCTYuntongxunManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTYuntongxunManager.h; sourceTree = "<group>"; };
 		EF631B0E1CC28B2500AC9715 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		EF631B101CC28B2F00AC9715 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		EF631B121CC28B3800AC9715 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -53,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D31CDDA1DC251D10017431D /* libPods-reactnativeyuntongdemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +69,7 @@
 		4D2964431DC18B2000D9142A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4D31CDAD1DC24BA70017431D /* libPods-reactnativeyuntongdemo.a */,
 				EF631B2C1CC28B9800AC9715 /* UIKit.framework */,
 				EF631B2A1CC28B9100AC9715 /* SystemConfiguration.framework */,
 				EF631B281CC28B8A00AC9715 /* QuartzCore.framework */,
@@ -87,6 +95,10 @@
 			children = (
 				4D33E8011DC1AB5C000E6381 /* RCTYuntongxunIMLib.h */,
 				4D33E8021DC1AB5C000E6381 /* RCTYuntongxunIMLib.m */,
+				4D9D7C9A1DC1DC7D00551ACB /* RCTYuntongxunManager.m */,
+				4D9D7C9C1DC1DC9A00551ACB /* RCTYuntongxunManager.h */,
+				4D31CDD71DC24F260017431D /* DeviceDelegateHelper.h */,
+				4D31CDD81DC24F6C0017431D /* DeviceDelegateHelper.m */,
 			);
 			path = RCTYuntongxunIMLib;
 			sourceTree = "<group>";
@@ -96,7 +108,6 @@
 			children = (
 				4D33E8001DC1AB5C000E6381 /* RCTYuntongxunIMLib */,
 				4D2964431DC18B2000D9142A /* Frameworks */,
-				EF631A951CC22A4600AC9715 /* RCTYuntongxunIMLib */,
 				EF631A941CC22A4600AC9715 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -107,16 +118,6 @@
 				4D33E7FF1DC1AB5C000E6381 /* libRCTYuntongxunIMLib.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		EF631A951CC22A4600AC9715 /* RCTYuntongxunIMLib */ = {
-			isa = PBXGroup;
-			children = (
-				4D2964441DC18B4D00D9142A /* RCTYuntongxunIMLib.h */,
-				4D2964451DC18B4D00D9142A /* RCTYuntongxunIMLib.m */,
-			);
-			name = RCTYuntongxunIMLib;
-			path = RCTRongCloudIMLib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +178,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D9D7C9B1DC1DC7D00551ACB /* RCTYuntongxunManager.m in Sources */,
+				4D31CDD91DC24F6C0017431D /* DeviceDelegateHelper.m in Sources */,
 				4D33E8031DC1AB5C000E6381 /* RCTYuntongxunIMLib.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -192,6 +195,11 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				DEVELOPMENT_TEAM = TT5SA69489;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"../../react-native/React/**",
+					"../../../ios/Pods/Headers/Public/yuntongxun-full-sdk/**",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -207,6 +215,11 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				DEVELOPMENT_TEAM = TT5SA69489;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"../../react-native/React/**",
+					"../../../ios/Pods/Headers/Public/yuntongxun-full-sdk/**",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
