@@ -7,33 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D2964461DC18B4D00D9142A /* RCTYuntongxunIMLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2964451DC18B4D00D9142A /* RCTYuntongxunIMLib.m */; };
-		5CBAFE6422B28691B4BED405 /* libPods-RCTRongCloudIMLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81EB6C04F4356AE0AF71E727 /* libPods-RCTRongCloudIMLib.a */; };
-		EF631B0F1CC28B2500AC9715 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF631B0E1CC28B2500AC9715 /* AssetsLibrary.framework */; };
-		EF631B111CC28B2F00AC9715 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF631B101CC28B2F00AC9715 /* AudioToolbox.framework */; };
-		EF631B131CC28B3800AC9715 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF631B121CC28B3800AC9715 /* AVFoundation.framework */; };
-		EF631B151CC28B3F00AC9715 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF631B141CC28B3F00AC9715 /* CFNetwork.framework */; };
-		EF631B171CC28B4600AC9715 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF631B161CC28B4600AC9715 /* CoreAudio.framework */; };
-		EF631B191CC28B4D00AC9715 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF631B181CC28B4D00AC9715 /* CoreGraphics.framework */; };
-		EF631B1B1CC28B5600AC9715 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF631B1A1CC28B5600AC9715 /* CoreLocation.framework */; };
-		EF631B1D1CC28B5D00AC9715 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF631B1C1CC28B5D00AC9715 /* CoreMedia.framework */; };
-		EF631B1F1CC28B6400AC9715 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF631B1E1CC28B6400AC9715 /* CoreTelephony.framework */; };
-		EF631B211CC28B6B00AC9715 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF631B201CC28B6B00AC9715 /* CoreVideo.framework */; };
-		EF631B231CC28B7200AC9715 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF631B221CC28B7200AC9715 /* ImageIO.framework */; };
-		EF631B251CC28B7B00AC9715 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF631B241CC28B7B00AC9715 /* MapKit.framework */; };
-		EF631B271CC28B8300AC9715 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF631B261CC28B8300AC9715 /* OpenGLES.framework */; };
-		EF631B291CC28B8A00AC9715 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF631B281CC28B8A00AC9715 /* QuartzCore.framework */; };
-		EF631B2B1CC28B9100AC9715 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF631B2A1CC28B9100AC9715 /* SystemConfiguration.framework */; };
-		EF631B2D1CC28B9800AC9715 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF631B2C1CC28B9800AC9715 /* UIKit.framework */; };
+		4D33E8031DC1AB5C000E6381 /* RCTYuntongxunIMLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D33E8021DC1AB5C000E6381 /* RCTYuntongxunIMLib.m */; };
+		4D33E8041DC1AB5C000E6381 /* RCTYuntongxunIMLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4D33E8011DC1AB5C000E6381 /* RCTYuntongxunIMLib.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		EF631A911CC22A4600AC9715 /* CopyFiles */ = {
+		4D33E7FD1DC1AB5C000E6381 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				4D33E8041DC1AB5C000E6381 /* RCTYuntongxunIMLib.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,10 +27,9 @@
 /* Begin PBXFileReference section */
 		4D2964441DC18B4D00D9142A /* RCTYuntongxunIMLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCTYuntongxunIMLib.h; path = RCTYuntongxunIMLib/RCTYuntongxunIMLib.h; sourceTree = SOURCE_ROOT; };
 		4D2964451DC18B4D00D9142A /* RCTYuntongxunIMLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCTYuntongxunIMLib.m; path = RCTYuntongxunIMLib/RCTYuntongxunIMLib.m; sourceTree = SOURCE_ROOT; };
-		5A9FBE107C78EEB42BE551CF /* Pods-RCTRongCloudIMLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTRongCloudIMLib.release.xcconfig"; path = "Pods/Target Support Files/Pods-RCTRongCloudIMLib/Pods-RCTRongCloudIMLib.release.xcconfig"; sourceTree = "<group>"; };
-		81EB6C04F4356AE0AF71E727 /* libPods-RCTRongCloudIMLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RCTRongCloudIMLib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9DC264B437D7FC66D011FF20 /* Pods-RCTRongCloudIMLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTRongCloudIMLib.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RCTRongCloudIMLib/Pods-RCTRongCloudIMLib.debug.xcconfig"; sourceTree = "<group>"; };
-		EF631A931CC22A4600AC9715 /* libRCTRongCloudIMLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTRongCloudIMLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D33E7FF1DC1AB5C000E6381 /* libRCTYuntongxunIMLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTYuntongxunIMLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D33E8011DC1AB5C000E6381 /* RCTYuntongxunIMLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTYuntongxunIMLib.h; sourceTree = "<group>"; };
+		4D33E8021DC1AB5C000E6381 /* RCTYuntongxunIMLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTYuntongxunIMLib.m; sourceTree = "<group>"; };
 		EF631B0E1CC28B2500AC9715 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		EF631B101CC28B2F00AC9715 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		EF631B121CC28B3800AC9715 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -65,27 +49,10 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EF631A901CC22A4600AC9715 /* Frameworks */ = {
+		4D33E7FC1DC1AB5C000E6381 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF631B2D1CC28B9800AC9715 /* UIKit.framework in Frameworks */,
-				EF631B2B1CC28B9100AC9715 /* SystemConfiguration.framework in Frameworks */,
-				EF631B291CC28B8A00AC9715 /* QuartzCore.framework in Frameworks */,
-				EF631B271CC28B8300AC9715 /* OpenGLES.framework in Frameworks */,
-				EF631B251CC28B7B00AC9715 /* MapKit.framework in Frameworks */,
-				EF631B231CC28B7200AC9715 /* ImageIO.framework in Frameworks */,
-				EF631B211CC28B6B00AC9715 /* CoreVideo.framework in Frameworks */,
-				EF631B1F1CC28B6400AC9715 /* CoreTelephony.framework in Frameworks */,
-				EF631B1D1CC28B5D00AC9715 /* CoreMedia.framework in Frameworks */,
-				EF631B1B1CC28B5600AC9715 /* CoreLocation.framework in Frameworks */,
-				EF631B191CC28B4D00AC9715 /* CoreGraphics.framework in Frameworks */,
-				EF631B171CC28B4600AC9715 /* CoreAudio.framework in Frameworks */,
-				EF631B151CC28B3F00AC9715 /* CFNetwork.framework in Frameworks */,
-				EF631B131CC28B3800AC9715 /* AVFoundation.framework in Frameworks */,
-				EF631B111CC28B2F00AC9715 /* AudioToolbox.framework in Frameworks */,
-				EF631B0F1CC28B2500AC9715 /* AssetsLibrary.framework in Frameworks */,
-				5CBAFE6422B28691B4BED405 /* libPods-RCTRongCloudIMLib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,34 +78,33 @@
 				EF631B121CC28B3800AC9715 /* AVFoundation.framework */,
 				EF631B101CC28B2F00AC9715 /* AudioToolbox.framework */,
 				EF631B0E1CC28B2500AC9715 /* AssetsLibrary.framework */,
-				81EB6C04F4356AE0AF71E727 /* libPods-RCTRongCloudIMLib.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A5898CCA2CF339E03D4E8783 /* Pods */ = {
+		4D33E8001DC1AB5C000E6381 /* RCTYuntongxunIMLib */ = {
 			isa = PBXGroup;
 			children = (
-				9DC264B437D7FC66D011FF20 /* Pods-RCTRongCloudIMLib.debug.xcconfig */,
-				5A9FBE107C78EEB42BE551CF /* Pods-RCTRongCloudIMLib.release.xcconfig */,
+				4D33E8011DC1AB5C000E6381 /* RCTYuntongxunIMLib.h */,
+				4D33E8021DC1AB5C000E6381 /* RCTYuntongxunIMLib.m */,
 			);
-			name = Pods;
+			path = RCTYuntongxunIMLib;
 			sourceTree = "<group>";
 		};
 		EF631A8A1CC22A4500AC9715 = {
 			isa = PBXGroup;
 			children = (
+				4D33E8001DC1AB5C000E6381 /* RCTYuntongxunIMLib */,
 				4D2964431DC18B2000D9142A /* Frameworks */,
 				EF631A951CC22A4600AC9715 /* RCTYuntongxunIMLib */,
 				EF631A941CC22A4600AC9715 /* Products */,
-				A5898CCA2CF339E03D4E8783 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		EF631A941CC22A4600AC9715 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EF631A931CC22A4600AC9715 /* libRCTRongCloudIMLib.a */,
+				4D33E7FF1DC1AB5C000E6381 /* libRCTYuntongxunIMLib.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -156,23 +122,21 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EF631A921CC22A4600AC9715 /* RCTRongCloudIMLib */ = {
+		4D33E7FE1DC1AB5C000E6381 /* RCTYuntongxunIMLib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF631A9C1CC22A4600AC9715 /* Build configuration list for PBXNativeTarget "RCTRongCloudIMLib" */;
+			buildConfigurationList = 4D33E8051DC1AB5C000E6381 /* Build configuration list for PBXNativeTarget "RCTYuntongxunIMLib" */;
 			buildPhases = (
-				31D15CE365F6A551C846AA5F /* [CP] Check Pods Manifest.lock */,
-				EF631A8F1CC22A4600AC9715 /* Sources */,
-				EF631A901CC22A4600AC9715 /* Frameworks */,
-				EF631A911CC22A4600AC9715 /* CopyFiles */,
-				F56E11DD8E5412039EA55ECE /* [CP] Copy Pods Resources */,
+				4D33E7FB1DC1AB5C000E6381 /* Sources */,
+				4D33E7FC1DC1AB5C000E6381 /* Frameworks */,
+				4D33E7FD1DC1AB5C000E6381 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = RCTRongCloudIMLib;
-			productName = RCTRongCloudIMLib;
-			productReference = EF631A931CC22A4600AC9715 /* libRCTRongCloudIMLib.a */;
+			name = RCTYuntongxunIMLib;
+			productName = RCTYuntongxunIMLib;
+			productReference = 4D33E7FF1DC1AB5C000E6381 /* libRCTYuntongxunIMLib.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -181,11 +145,13 @@
 		EF631A8B1CC22A4600AC9715 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = lovebing.org;
 				TargetAttributes = {
-					EF631A921CC22A4600AC9715 = {
-						CreatedOnToolsVersion = 7.2.1;
+					4D33E7FE1DC1AB5C000E6381 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = TT5SA69489;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -201,56 +167,53 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EF631A921CC22A4600AC9715 /* RCTRongCloudIMLib */,
+				4D33E7FE1DC1AB5C000E6381 /* RCTYuntongxunIMLib */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		31D15CE365F6A551C846AA5F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		F56E11DD8E5412039EA55ECE /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RCTRongCloudIMLib/Pods-RCTRongCloudIMLib-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		EF631A8F1CC22A4600AC9715 /* Sources */ = {
+		4D33E7FB1DC1AB5C000E6381 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D2964461DC18B4D00D9142A /* RCTYuntongxunIMLib.m in Sources */,
+				4D33E8031DC1AB5C000E6381 /* RCTYuntongxunIMLib.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		4D33E8061DC1AB5C000E6381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEVELOPMENT_TEAM = TT5SA69489;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4D33E8071DC1AB5C000E6381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEVELOPMENT_TEAM = TT5SA69489;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		EF631A9A1CC22A4600AC9715 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -264,8 +227,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -307,8 +272,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -331,57 +298,23 @@
 			};
 			name = Release;
 		};
-		EF631A9D1CC22A4600AC9715 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9DC264B437D7FC66D011FF20 /* Pods-RCTRongCloudIMLib.debug.xcconfig */;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/lib";
-				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/../../react-native/React/**",
-					"$(SRCROOT)/../../react-native/Libraries/**",
-				);
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/lib";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		EF631A9E1CC22A4600AC9715 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A9FBE107C78EEB42BE551CF /* Pods-RCTRongCloudIMLib.release.xcconfig */;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/lib";
-				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/../../react-native/React/**",
-					"$(SRCROOT)/../../react-native/Libraries/**",
-				);
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/lib";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4D33E8051DC1AB5C000E6381 /* Build configuration list for PBXNativeTarget "RCTYuntongxunIMLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D33E8061DC1AB5C000E6381 /* Debug */,
+				4D33E8071DC1AB5C000E6381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		EF631A8E1CC22A4600AC9715 /* Build configuration list for PBXProject "RCTYuntongxunIMLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EF631A9A1CC22A4600AC9715 /* Debug */,
 				EF631A9B1CC22A4600AC9715 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EF631A9C1CC22A4600AC9715 /* Build configuration list for PBXNativeTarget "RCTRongCloudIMLib" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EF631A9D1CC22A4600AC9715 /* Debug */,
-				EF631A9E1CC22A4600AC9715 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

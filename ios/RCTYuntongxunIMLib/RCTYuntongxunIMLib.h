@@ -1,33 +1,13 @@
 //
 //  RCTYuntongxunIMLib.h
 //  RCTYuntongxunIMLib
+//
+//  Created by liubinbin on 27/10/2016.
+//  Copyright © 2016 lovebing.org. All rights reserved.
+//
 
+#import <Foundation/Foundation.h>
 
-#import "RCTBridgeModule.h"
-#import "RCTEventDispatcher.h"
-#import "RCTBridge.h"
-#import <RongIMLib/RongIMLib.h>
-#import <RongIMLib/RCIMClient.h>
-
-
-@interface RCTYuntongxunIMLib: NSObject <RCTBridgeModule, RCIMClientReceiveMessageDelegate> {
-    
-}
--(RCIMClient *) getClient;
-
-- (void)onReceived:(RCMessage *)message
-              left:(int)nLeft
-            object:(id)object;
-
--(void)sendEvent:(NSString *)name body:(NSMutableDictionary *)body;
-
--(void)sendMessage:(NSString *)type
-          targetId:(NSString *)targetId
-           content:(RCMessageContent *)content
-       pushContent:(NSString *) pushContent
-           resolve:(RCTPromiseResolveBlock)resolve
-            reject:(RCTPromiseRejectBlock)reject;
-
--(NSMutableDictionary *)getEmptyBody;
+@interface RCTYuntongxunIMLib : NSObject
 
 @end
