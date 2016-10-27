@@ -1,0 +1,16 @@
+PODS:
+  - yuntongxun-full-sdk (0.0.1)
+
+DEPENDENCIES:
+  - yuntongxun-full-sdk (from `../../yuntongxun`)
+
+EXTERNAL SOURCES:
+  yuntongxun-full-sdk:
+    :path: "../../yuntongxun"
+
+SPEC CHECKSUMS:
+  yuntongxun-full-sdk: 4d1ea5b7f6c54bd2fbf7e76d9346db06b55406fe
+
+PODFILE CHECKSUM: c728ff945e2beff32e28468bc0b9580398822a65
+
+COCOAPODS: 1.1.0.beta.1

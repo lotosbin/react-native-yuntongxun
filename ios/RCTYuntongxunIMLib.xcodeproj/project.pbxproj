@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4D2964461DC18B4D00D9142A /* RCTYuntongxunIMLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2964451DC18B4D00D9142A /* RCTYuntongxunIMLib.m */; };
+		5CBAFE6422B28691B4BED405 /* libPods-RCTRongCloudIMLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81EB6C04F4356AE0AF71E727 /* libPods-RCTRongCloudIMLib.a */; };
 		EF631B0F1CC28B2500AC9715 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF631B0E1CC28B2500AC9715 /* AssetsLibrary.framework */; };
 		EF631B111CC28B2F00AC9715 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF631B101CC28B2F00AC9715 /* AudioToolbox.framework */; };
 		EF631B131CC28B3800AC9715 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF631B121CC28B3800AC9715 /* AVFoundation.framework */; };
@@ -41,6 +42,9 @@
 /* Begin PBXFileReference section */
 		4D2964441DC18B4D00D9142A /* RCTYuntongxunIMLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCTYuntongxunIMLib.h; path = RCTYuntongxunIMLib/RCTYuntongxunIMLib.h; sourceTree = SOURCE_ROOT; };
 		4D2964451DC18B4D00D9142A /* RCTYuntongxunIMLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCTYuntongxunIMLib.m; path = RCTYuntongxunIMLib/RCTYuntongxunIMLib.m; sourceTree = SOURCE_ROOT; };
+		5A9FBE107C78EEB42BE551CF /* Pods-RCTRongCloudIMLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTRongCloudIMLib.release.xcconfig"; path = "Pods/Target Support Files/Pods-RCTRongCloudIMLib/Pods-RCTRongCloudIMLib.release.xcconfig"; sourceTree = "<group>"; };
+		81EB6C04F4356AE0AF71E727 /* libPods-RCTRongCloudIMLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RCTRongCloudIMLib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DC264B437D7FC66D011FF20 /* Pods-RCTRongCloudIMLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTRongCloudIMLib.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RCTRongCloudIMLib/Pods-RCTRongCloudIMLib.debug.xcconfig"; sourceTree = "<group>"; };
 		EF631A931CC22A4600AC9715 /* libRCTRongCloudIMLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTRongCloudIMLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF631B0E1CC28B2500AC9715 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		EF631B101CC28B2F00AC9715 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -81,6 +85,7 @@
 				EF631B131CC28B3800AC9715 /* AVFoundation.framework in Frameworks */,
 				EF631B111CC28B2F00AC9715 /* AudioToolbox.framework in Frameworks */,
 				EF631B0F1CC28B2500AC9715 /* AssetsLibrary.framework in Frameworks */,
+				5CBAFE6422B28691B4BED405 /* libPods-RCTRongCloudIMLib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,8 +111,18 @@
 				EF631B121CC28B3800AC9715 /* AVFoundation.framework */,
 				EF631B101CC28B2F00AC9715 /* AudioToolbox.framework */,
 				EF631B0E1CC28B2500AC9715 /* AssetsLibrary.framework */,
+				81EB6C04F4356AE0AF71E727 /* libPods-RCTRongCloudIMLib.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5898CCA2CF339E03D4E8783 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9DC264B437D7FC66D011FF20 /* Pods-RCTRongCloudIMLib.debug.xcconfig */,
+				5A9FBE107C78EEB42BE551CF /* Pods-RCTRongCloudIMLib.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		EF631A8A1CC22A4500AC9715 = {
@@ -116,6 +131,7 @@
 				4D2964431DC18B2000D9142A /* Frameworks */,
 				EF631A951CC22A4600AC9715 /* RCTYuntongxunIMLib */,
 				EF631A941CC22A4600AC9715 /* Products */,
+				A5898CCA2CF339E03D4E8783 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF631A9C1CC22A4600AC9715 /* Build configuration list for PBXNativeTarget "RCTRongCloudIMLib" */;
 			buildPhases = (
+				31D15CE365F6A551C846AA5F /* [CP] Check Pods Manifest.lock */,
 				EF631A8F1CC22A4600AC9715 /* Sources */,
 				EF631A901CC22A4600AC9715 /* Frameworks */,
 				EF631A911CC22A4600AC9715 /* CopyFiles */,
+				F56E11DD8E5412039EA55ECE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,6 +205,39 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31D15CE365F6A551C846AA5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F56E11DD8E5412039EA55ECE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RCTRongCloudIMLib/Pods-RCTRongCloudIMLib-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EF631A8F1CC22A4600AC9715 /* Sources */ = {
@@ -282,6 +333,7 @@
 		};
 		EF631A9D1CC22A4600AC9715 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DC264B437D7FC66D011FF20 /* Pods-RCTRongCloudIMLib.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/lib";
 				HEADER_SEARCH_PATHS = (
@@ -298,6 +350,7 @@
 		};
 		EF631A9E1CC22A4600AC9715 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A9FBE107C78EEB42BE551CF /* Pods-RCTRongCloudIMLib.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/lib";
 				HEADER_SEARCH_PATHS = (

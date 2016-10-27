@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F5B04FB2794BD192AE8A4E6F807319D15C7F730C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F5B04FB2794BD192AE8A4E6F807319D15C7F730C" : 9223372036854775807,
+    "8D8F9995436B070EE95F119EF5F5205B62B1F4FF" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A87B0F89-2E7C-4A4C-8F33-5F14EFFD5283",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F5B04FB2794BD192AE8A4E6F807319D15C7F730C" : "react-native-yuntongxun\/",
+    "8D8F9995436B070EE95F119EF5F5205B62B1F4FF" : "yuntongxun\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RCTYuntongxunIMLib",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ios\/RCTYuntongxunIMLib.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lotosbin\/yuntongxun.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8D8F9995436B070EE95F119EF5F5205B62B1F4FF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lotosbin\/react-native-yuntongxun.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F5B04FB2794BD192AE8A4E6F807319D15C7F730C"
+    }
+  ]
+}
